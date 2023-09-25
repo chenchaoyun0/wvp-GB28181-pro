@@ -26,7 +26,7 @@ public class SpringDocConfig {
         contact.setName("pan");
         contact.setEmail("648540858@qq.com");
         return new OpenAPI()
-                .info(new Info().title("WVP-PRO 接口文档")
+                .info(new Info().title("WVP-PRO 接口文档IHS")
                         .contact(contact)
                         .description("开箱即用的28181协议视频平台")
                         .version("v2.0")

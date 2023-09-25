@@ -74,6 +74,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             matchers.add("/v3/api-docs/**");
             matchers.add("/js/**");
             matchers.add("/api/device/query/snap/**");
+            matchers.add("/api/push/getPlayUrl");
             matchers.add("/record_proxy/*/**");
             matchers.addAll(userSetting.getInterfaceAuthenticationExcludes());
             // 可以直接访问的静态数据
